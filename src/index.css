@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: #678260;
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 36px;
+}
+
+.navbarLogo>img {
+  width: 48px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.rside {
+  display: flex;
+  padding: 0px 25px 0px 33px;
+  align-items: center;
+}
+
+.cart {
+  color: rgb(61, 25, 180);
+  font-size: 42px;
+  cursor: pointer;
+}
+
+.cartbox>a {
+  text-decoration: none;
+}
+
+.cartbox:hover>a>.cart {
+  color: rgb(2, 2, 80);
+}
+
+.cartbox>a>span {
+  color: rgb(2, 2, 80);
+  margin: 0px 0px 5px -30px;
+  width: 25px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cartbox:hover>a>span {
+  color: white;
+}
+
+.mainHeadingContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.mainHeading {
+  text-align: center;
+  margin: 0px 0px 10px 0px;
+  background: rgb(39, 40, 41);
+  color: rgb(228, 202, 33);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 13%;
+}
+
+.productPage,
+.checkoutPage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 23px;
+  justify-content: flex-start;
+}
+
+.checkoutPage {
+  width: 78%;
+  padding: 23px 0px;
+}
+
+.checkoutContainer {
+  display: flex;
+}
+
+.orderContainer {
+  display: flex;
+  padding: 43px 6px;
+  width: 22%;
+}
+
+.orderDetail {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(2, 80, 80);
+  color: white;
+  width: 100%;
+}
+
+.orderDetail>h1 {
+  text-align: center;
+  padding: 10px 0px;
+  letter-spacing: 0.5px;
+}
+
+.orderSubHeading {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px 10px 60px;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 2px dashed white;
+  letter-spacing: 0.8px;
+}
+
+.orderList {
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.orderListItem {
+  display: flex;
+  margin: 5px 0px;
+  padding: 0px 10px 0px 2px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.orderListItemName {
+  width: 70%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.orderListItemPrice {
+  font-size: 17px;
+}
+
+.orderTotalHeading {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  border-top: 2px dashed white;
+  border-bottom: 2px dashed white;
+  letter-spacing: 0.8px;
+}
+
+.orderTotal {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px 10px 60px;
+  font-size: 20px;
+}
+
+/* /////////////////////////////////////////////// */
+
+.card {
+  width: 225px;
+  height: 430px;
+  /* border: 1px solid black; */
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgb(2 2 80 / 25%);
+  margin: 20px 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardimg {
+  width: 80%;
+  height: 52%;
+}
+
+.cardimg img {
+  width: 100%;
+  height: 100%;
+}
+
+.carddetail {
+  width: 100%;
+  height: 48%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.cardname {
+  font-size: 20px;
+  width: 100%;
+  height: 24%;
+  overflow: hidden;
+  text-align: center;
+  margin: 5px 0px;
+}
+
+.cardmid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15%;
+  width: 100%;
+  margin: 10px 0px;
+  padding: 0px 10px;
+}
+
+.cardprice {
+  font-weight: 600;
+  font-size: 20px;
+  color: orangered;
+}
+
+.addbtn,
+.removebtn {
+  border: none;
+  font-size: 16px;
+  background: #168f88;
+  border-radius: 15px;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.removebtn {
+  background: red;
+}
+
+.carddesc {
+  width: 100%;
+  height: 44%;
+  color: #878787;
+  font-size: 14px;
+  overflow: hidden;
+  text-align: justify;
+  padding: 0px 10px;
+  letter-spacing: 0.8px;
+  margin: 5px 0px 0px 0px;
+}
